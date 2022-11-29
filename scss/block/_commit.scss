@@ -1,0 +1,75 @@
+.commit{
+    padding-top: 168px;
+}
+.commit__container{
+    max-width: 1110px;
+}
+.commit__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commit__title{
+    max-width: 358px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.commit__text{
+    max-width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+@media screen and (max-width:1080px) {
+    .commit__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .commit__img{
+        width: 218px;
+        height: 470px;
+    }
+    .commit__content-block{
+        margin-left: 69px;
+    }
+    .commit__title{
+        max-width: 286px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .commit__text{
+        max-width: 339px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:682px) {
+    .commit__block{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .commit__img{
+        max-width: 327px;
+        height: 400px;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+    .site-header__content-block{
+        max-width: 327px;
+        margin-left: 0;
+    }
+    .commit__title{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .commit__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
